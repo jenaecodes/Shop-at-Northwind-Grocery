@@ -85,43 +85,8 @@ span {
     font-weight: bold;
   }
 
-.container-za {
-    margin-bottom: 50px;
-    padding: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  } */
 
-/* #resultsContainer {
-    margin: 35px;
-  }
-
-.custom-btn {
-    background-color: #ef6969;
-    border-color: #ef6969;
-  } */
-  
-.custom-btn:hover {
-    background-color: #e31010;
-    border-color: #e31010;
-  }
-
-.custom-button {
-    background-color: #d3d3d3;
-    border-color: #d3d3d3;
-    color: #000000;
-  }
-  
-.custom-button:hover {
-    background-color: #808080;
-    border-color: #808080;
-  }
-
-
-
-  .navbar {
+.navbar {
     font-family: "Arial", sans-serif;
     font-size: 16px;
     font-weight: bold;
