@@ -20,6 +20,13 @@ img {
     border-radius: 70px;
   }
 
+  #myImage {
+    margin: 25px;
+    margin-bottom: 65px;
+    width: 1000px;
+    height: 700px;
+  }
+
 span {
     font-weight: bold;
     color: #39674d;
