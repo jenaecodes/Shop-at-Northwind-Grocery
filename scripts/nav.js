@@ -13,4 +13,4 @@
   } else {
     navbar.classList.remove("scrolled");
   }
-});
+
