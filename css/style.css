@@ -1,3 +1,269 @@
-#categoryDropdown {
-    display:none;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+body {
+    margin: 12px;
+    padding: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+
+h1 {
+    font-family: fantasy;
+  }
+img {
+    border-radius: 70px;
+  }
+
+span {
+    font-weight: bold;
+    color: #9ee3bc;
+    text-decoration: underline;
+  }
+
+.image-container {
+    margin: 45px;
+    margin-bottom: -120px;
+    width: 1000px;
+    height: 700px;
+  }
+
+.button {
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(132, 176, 147) -2px -2px 0px 2px, rgb(148, 236, 173) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+  }
+
+.button:hover{
+    box-shadow: rgb(148, 236, 173) -2px -2px 0px 2px, rgb(132, 176, 147) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.01);
+    color:rgb(96, 96, 96);
+    }
+
+#myButton {
+    align-items: center;
+    background-color: #ef6969;
+    color: #fff;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+  
+#myButton:hover {
+    background-color: #e31010;
+  }
+
+.ingredients {
+    margin: 25px;
+    background-color: #f5f8ff;
+    opacity: 65%;
+    color: #393838;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.container-za {
+    margin-bottom: 50px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  } */
+
+/* #resultsContainer {
+    margin: 35px;
+  }
+
+.custom-btn {
+    background-color: #ef6969;
+    border-color: #ef6969;
+  } */
+  
+.custom-btn:hover {
+    background-color: #e31010;
+    border-color: #e31010;
+  }
+
+.custom-button {
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+    color: #000000;
+  }
+  
+.custom-button:hover {
+    background-color: #808080;
+    border-color: #808080;
+  }
+
+
+
+  .navbar {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+.navbar.scrolled {
+    background-color: #f8f7f7;
+    opacity: 90%;
+  }
+
+.navbar.scrolled .nav-link {
+    color: rgb(22, 133, 59);
+  }
+
+.navbar.scrolled .nav-link:hover {
+    color: black;
+  }
+
+.navbar-brand {
+    font-size: 20px;
+    color: #333;
+  }
+
+.nav-link {
+    color: #555;
+  }
+
+.nav-link:hover {
+    color: rgb(75, 161, 100);
+  }
+
+
+
+
+#logo {
+    margin-top: 100px;
+  }
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #4f866b;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #f1eeee;
+    border-radius: 10px;
+  }
+
+
+
+footer {
+    background-color: #f8f7f7;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.contact-info,
+  .contact-form {
+    width: 48%;
+  }
+  
+.contact-info h4,
+  .contact-form h4 {
+    margin-top: 0;
+  }
+  
+.contact-info p {
+    margin: 5px 0;
+  }
+  
+.contact-form form {
+    margin-top: 10px;
+  }
+  
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #549468;
+    border-radius: 35px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+
+.contact-form button:hover {
+    background-color: #43761f;
+  }
+  
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+
+  /* small screens */
+@media (max-width: 576px) {
+  .col-sm-6,
+  .col-md-4,
+  .col-lg-3 {
+    width: 100%;
+  }
+}
+
+/* medium screens */
+@media (min-width: 576px) and (max-width: 992px) {
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+}
+
+/* large screens */
+@media (min-width: 992px) {
+  .col-sm-6 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
 }
